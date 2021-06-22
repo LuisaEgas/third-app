@@ -1,0 +1,2 @@
+aws/test/s3/ExampleTest.java
+ aws.test.s3.ExampleTest
