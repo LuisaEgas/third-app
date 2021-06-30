@@ -14,7 +14,17 @@ dependencies {
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.7.0'
 
     implementation platform('software.amazon.awssdk:bom:2.15.0')
-    implementation group: 'com.amazonaws', name: 'aws-java-sdk-sqs', version: '1.12.9'
+    implementation group: 'software.amazon.awssdk', name: 'sqs', version: '2.16.70'
+    implementation group: 'software.amazon.awssdk', name: 'ssm', version: '2.16.89'
+
+    implementation group: 'org.slf4j', name: 'slf4j-api', version: '1.7.30'
+    implementation 'ch.qos.logback:logback-core:1.2.3'
+    implementation 'ch.qos.logback:logback-classic:1.2.3'
+
+    compile('org.projectlombok:lombok:1.18.20')
+    annotationProcessor 'org.projectlombok:lombok:1.18.20'
+
+
 }
 
 test {

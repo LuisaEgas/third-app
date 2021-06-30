@@ -1,4 +1,6 @@
 aws/example/s3/Example.java
  aws.example.s3.Example
+aws/example/s3/Constants.java
+ aws.example.s3.Constants
 aws/example/s3/MessagesSQS.java
  aws.example.s3.MessagesSQS
